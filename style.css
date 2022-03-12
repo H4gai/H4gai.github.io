@@ -1,0 +1,329 @@
+/* memasukan url bentuk font pada website */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* pengaturan keseluruhan  */
+*{
+	margin : 0;
+	padding : 0;
+}
+
+/* Mengatur font pada body web */
+body{
+	
+	font-family: 'Open Sans', sans-serif;
+	background-color: gray;
+}
+
+.nav{
+	height : 40px;
+	width : auto;
+	background-color: black;
+	/* Mengatur posisi pada bagian navigasi web */
+	top :0;
+	position: sticky;
+	z-index: 999;
+}
+
+/* Mengatur isi dari navigasi */
+.nav ul li{
+	list-style: none;
+	float: left;
+	margin: 10px;
+	padding-left: 20px;
+}
+
+/* Mengatur warna isi navigasi*/
+.nav ul li a{
+	text-decoration : none;
+	color : white;
+}
+
+/* Mengatur saat isi navigasi di tekan */
+.nav ul li a:hover{
+	font-weight: 900;
+}
+
+/* Mengatur lebar, tinggi dan warna latar dari bagian header web */
+header{
+	max-width: auto;
+	height: auto;
+	background-color: white;
+	margin:auto;
+}
+
+/* Mengatur posisi dari isi header */
+.home{
+	display: grid;
+    margin: auto;
+    width: auto;
+    height: auto;
+    background-color: white;
+
+}
+
+/* Mengatur size dari logo  */
+.logo img{
+	display: flex;
+	padding:10px;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+/* Mengatur warna huruf pada header */
+.title{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin: auto;
+}
+
+.konten-1{
+	max-width: auto;
+	height: auto;
+	background-color: darkgray;
+	padding-left: 10px;
+	padding-right: 5px;
+}
+
+.konten-1 ul li a{
+	padding: 7,5px 20px;
+	text-decoration:none;
+	color: white;
+}
+
+.konten-1 ul li a:hover{
+	font-weight:600;
+}
+
+
+.konten-1 p{
+	padding:10px;
+	text-align:justify;
+}
+
+.konten-2{
+	max-width: auto;
+	height: auto;
+	background-color: white;
+	padding: 10px;
+	
+}
+
+.konten-2 h2{
+	text-align:center;
+	padding:30px;
+}
+
+.isi-konten-2{
+	max-width: auto;
+	height: auto;
+	background-color: white;
+	padding-left: 200px;
+	padding-right: 200px;
+	display:flex;
+	flex-direction: row;
+	align-items:center;
+	justify-content:space-between;
+}
+
+.isi-1{
+	width:300px;
+	height:180px;
+	display:flex;
+	flex-direction: row;
+	align-items:center;
+	justify-content:space-between;
+	background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwEOIlVGcvvRZTk7DZ219Er1vsxAvthtYxaQ&usqp=CAU');
+	background-size:contain;
+}
+
+.isi-2{
+	width:270px;
+	height:180px;
+	display:flex;
+	flex-direction: row;
+	align-items:center;
+	justify-content:space-between;
+	background-image: url('https://gbr.balipedia.id/wp-content/uploads/2018/12/150.-7-Kuliner-Ala-Perancis-yang-Dapat-Ditemukan-di-Bali.png');
+	background-size:contain;
+}
+
+.konten-3{
+	max-width: auto;
+	height: auto;
+	background-color: lightgray;
+	padding: 50px;
+	
+}
+
+.konten-3 h2{
+	text-align:left;
+	padding:10px;
+}
+
+.isi-konten-3{
+	max-width: auto;
+	height: auto;
+	padding-left: 200px;
+	padding-right: 200px;
+	display:flex;
+	flex-direction: row;
+	align-items:center;
+	justify-content:space-between;
+}
+
+.isi-konten-3 a{
+	text-decoration:none;
+	color: black;
+}
+
+.isi-3{
+	width:200px;
+	height:300px;
+	display:flex;
+	flex-direction: column;
+	align-items:center;
+	background-color:white;
+	padding-top:50px;
+}
+
+
+.konten-4{
+	max-width: auto;
+	height: auto;
+	background-color: white;
+	padding: 50px;
+	
+}
+
+.isi-konten-4{
+	max-width: auto;
+	height: auto;
+	padding-left: 245px;
+	padding-right: 245px;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-gap: 20px;
+	
+}
+
+.isi-4{
+	width:100%;
+	height:50px;
+	background-color: lightgray;
+	grid-column: 1 / 2;
+	
+}
+
+.isi-5{
+	width:700px;
+	height:300px;
+	background-color:gray;
+	grid-column: 1 / 2;
+}
+
+.isi-5 p{
+	padding:10px;
+	text-align: justify;
+}
+
+.konten-5{
+	max-width: auto;
+	height: auto;
+	display: grid;
+	grid-template-columns: 50% 50%;
+    grid-gap: 10px 10px;
+	padding:10px;
+	
+}
+
+.konten-5 a{
+	text-decoration:none;
+	color: black;
+}
+
+.isi-konten-5{
+	background-color: white;
+	display:flex;
+	flex-direction: column;
+	align-items:center;
+	justify-content:space-evenly;
+	padding:10px;
+	grid-gap: 10px 10px;
+	
+}
+
+.isi2-konten-5{
+	background-color: white;
+	display:flex;
+	flex-direction: column;
+	align-items:center;
+	justify-content:space-evenly;
+	grid-gap: 10px 10px;
+	padding:10px;
+	
+}
+
+.isi-7{
+	width:100%;
+	height:50px;
+	background-color:lightgray;
+	text-align:center;
+	
+}
+
+.isi-8{
+	width:300px;
+	height:190px;
+	background-color:green;
+	padding-top:10px;
+	background-image: url('https://asset.kompas.com/crops/-8_skPad__EKu4DpDs6TSFNWi3c=/0x0:1000x667/750x500/data/photo/2019/12/18/5df9e59f4c8b0.jpg');
+	background-size:contain;
+}
+
+.isi-9{
+	width:100%;
+	height:50px;
+	background-color:lightgray;
+	text-align:center;
+	
+}
+
+.isi-10{
+	width:300px;
+	height:190px;
+	background-color:green;
+	padding-top:10px;
+	background-image: url('https://www.wowkeren.com/display/images/photo/2019/01/28/00241809.jpg');
+	background-size:contain;
+}
+.isi-12{
+	width:240px;
+	height:190px;
+	padding-top:10px;
+	background-image: url('https://jadiberita.com/wp-content/uploads/2016/05/Martabakku-Rev-Velvet-Oreo-eatandstructure.blogspot.com_.jpg');
+	background-size:contain;
+}
+
+/* Mengatur warna dan size bagian footer*/
+.home-footer{
+	max-width: auto;
+	height: auto;
+	background-color: black;
+}
+
+/* Mengatur isi bagian footer*/
+.home-footer h2{
+	padding: 15px;
+	text-align: center;
+	color: white;
+	font-size:15px;
+}
+
+
+
+
